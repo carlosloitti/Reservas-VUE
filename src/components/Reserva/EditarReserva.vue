@@ -115,7 +115,7 @@
             return{
                 products: {
                     id:0,
-                    cliente_id: '',
+                    cliente_id: 0,
                     mesa_id: 0,
                     fecha_reserva: '',
                     duracion: 0
