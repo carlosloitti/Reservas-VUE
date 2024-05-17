@@ -12,7 +12,7 @@
                     <label for="id" class="form-label">Codigo</label>
                     <div class="input-group">
                         <div class="input-group-text"> <font-awesome-icon icon="tag"/></div> 
-                        <input type="text" class="form-control" id="id" placeholder="codigo categorie" disabled  
+                        <input type="text" class="form-control" id="id" placeholder="codigo " disabled  
                             v-model='menu.id'
                         >                 
                         </div>                                        
@@ -21,7 +21,7 @@
                     <div class="row mb-3">
                         <label for="name" class="form-label">Nombre: </label>
                         <div class="input-group">
-                            <input type="text" class="form-control" id="name" placeholder="nombre categorie" disabled  
+                            <input type="text" class="form-control" id="name" placeholder="nombre " disabled  
                             v-model='menu.name'
                         >                 
                         </div>
@@ -30,7 +30,7 @@
                     <div class="row mb-3">
                         <label for="descripcion" class="form-label">descripcion: </label>
                         <div class="input-group">
-                            <input type="text" class="form-control" id="descripcion" placeholder="descripcion categorie" disabled  
+                            <input type="text" class="form-control" id="descripcion" placeholder="descripcion " disabled  
                             v-model='menu.descripcion'
                         >                 
                         </div>
