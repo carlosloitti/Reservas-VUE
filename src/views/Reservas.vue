@@ -17,8 +17,6 @@
                 <th scope="col">fecha_reserva</th>   
                 <th scope="col">duracion</th> 
                 <th scope="col">estado</th> 
-                <th scope="col">created_at</th>
-                <th scope="col">updated_at</th>
                 <th scope="col">nombre</th> 
                 <th scope="col">ubicacion</th> 
 
@@ -32,9 +30,7 @@
                 <td>{{ reserva.mesa_id}}</td> 
                 <td>{{ reserva.fecha_reserva}}</td>
                 <td>{{ reserva.duracion}}</td>
-                <td>{{ reserva.estado}}</td>
-                <td>{{ reserva.created_at}}</td>
-                <td>{{ reserva.updated_at}}</td>
+                <td>{{ reserva.estado}}</td> 
                 <td>{{ reserva.nombre}}</td>
                 <td>{{ reserva.ubicacion}}</td>
 
