@@ -86,7 +86,7 @@
         name: 'EditarPlato',
         data(){
             return{
-                products: {
+                platos: {
                     id:0,
                     menu_id: 0,
                     nombre: '',
