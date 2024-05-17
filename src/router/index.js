@@ -4,6 +4,7 @@ import Clientes from '@/views/Clientes.vue'
 import Menus from '@/views/Menus.vue'
 import Mesas from '@/views/Mesas.vue'
 import Reservas from '@/views/Reservas.vue'
+import Platos from '@/views/Platos.vue'
 
 const routes = [
   {
@@ -36,6 +37,12 @@ const routes = [
     path: '/reservas',
     name: 'Reservas',
     component: Reservas
+  },
+
+  {
+    path: '/platos',
+    name: 'Platos',
+    component: Platos
   },
 
 

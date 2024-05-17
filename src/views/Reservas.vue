@@ -70,7 +70,7 @@ export default {
     name: 'Reserva',
     data(){
         return{
-            Reservas: []
+            reservas: []
         }
     },
 

@@ -6,6 +6,7 @@
     <router-link to="/menus">Menú</router-link> |
     <router-link to="/mesas">Mesa</router-link> |
     <router-link to="/reservas">Reservas</router-link> |
+    <router-link to="/platos">Platillos</router-link> |
   </nav>
   <router-view/>
 </template>
