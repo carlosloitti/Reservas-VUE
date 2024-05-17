@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import Clientes from '@/views/Clientes.vue'
 import Menus from '@/views/Menus.vue'
 import Mesas from '@/views/Mesas.vue'
-
+import Reservas from '@/views/Reservas.vue'
 
 const routes = [
   {
@@ -29,6 +29,13 @@ const routes = [
     path: '/mesas',
     name: 'Mesas',
     component: Mesas
+  },
+
+
+  {
+    path: '/reservas',
+    name: 'Reservas',
+    component: Reservas
   },
 
 

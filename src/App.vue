@@ -5,6 +5,7 @@
     <router-link to="/clientes">Clientes</router-link> |
     <router-link to="/menus">Menú</router-link> |
     <router-link to="/mesas">Mesa</router-link> |
+    <router-link to="/reservas">Reservas</router-link> |
   </nav>
   <router-view/>
 </template>
